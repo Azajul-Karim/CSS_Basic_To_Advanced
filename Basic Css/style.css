@@ -1,1 +1,43 @@
+body {
+  margin: 10px;
+}
 
+.product ~ p {
+  color: rgb(219, 68, 9);
+}
+
+/* p.first {
+  font-size: 140%;
+  font-style: italic;
+} */
+
+/* article :first-child {
+  font-size: 140%;
+  font-style: italic;
+} */
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+a:hover,
+a:focus {
+  color: deeppink;
+}
+
+article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+article :last-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+ul li:nth-child(even) {
+  color: rgb(17, 221, 17);
+}
