@@ -2,16 +2,16 @@ body {
   margin: 10px;
 }
 
-.product ~ p {
+/* .product ~ p {
   color: rgb(219, 68, 9);
 }
 
-/* p.first {
+p.first {
   font-size: 140%;
   font-style: italic;
-} */
+}
 
-/* article :first-child {
+article :first-child {
   font-size: 140%;
   font-style: italic;
 } */
@@ -40,4 +40,24 @@ ul li:nth-child(odd) {
 
 ul li:nth-child(even) {
   color: rgb(17, 221, 17);
+}
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+p::selection {
+  background-color: pink;
+}
+p::before {
+  content: "...";
+}
+
+p::after {
+  content: "...";
 }
