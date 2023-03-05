@@ -61,3 +61,19 @@ p::before {
 p::after {
   content: "...";
 }
+
+h1 {
+  color: dodgerblue;
+}
+
+.highlight {
+  color: deeppink;
+}
+
+h1#product {
+  color: rgb(10, 238, 48);
+}
+
+#product {
+  color: rgb(153, 39, 5);
+}
