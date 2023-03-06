@@ -14,7 +14,7 @@ p.first {
 article :first-child {
   font-size: 140%;
   font-style: italic;
-} */
+} 
 
 a:visited,
 a:link {
@@ -66,7 +66,7 @@ h1 {
   color: dodgerblue;
 }
 
-.highlight {
+.highlight {b
   color: deeppink;
 }
 
@@ -76,4 +76,45 @@ h1#product {
 
 #product {
   color: rgb(153, 39, 5);
+} 
+
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+strong {
+  color: initial;
+  border: inherit;
+}
+*/
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, green, blue, tomato);
+  background: radial-gradient(circle, red, green);
+} */
+
+/*
+.box {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  border: 10px dashed royalblue;
+  border-width: 10px 20px 10px 20px; /*top,right,bottom left*/
+/* border-radius: 100%;
+} */
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: dodgerblue;
+  /* box-shadow: 10px 10px 30px gray; */
+  box-shadow: 0 0 30px gray;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
