@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* box model */
+/* p {
+  padding: 10px 20px;
+  border: 5px solid goldenrod;
+} */
+
+/* sizing element */
+/* .box::before {
+  content: "Hello";
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+  display: inline-block;
+} */
+
+/* overflowing */
+/* .box {
+  border: 3px solid gold;
+  width: 150px;
+  height: 150px;
+  overflow: hidden auto;
+} */
+
+/* Measurement Units */
+.box {
+  width: 15rem;
+  height: 100vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
