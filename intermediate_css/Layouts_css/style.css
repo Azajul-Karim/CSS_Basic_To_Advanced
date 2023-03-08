@@ -3,6 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  margin: 10px;
+  height: 200vh;
+}
 
 /* box model */
 /* p {
@@ -30,9 +34,37 @@
 } */
 
 /* Measurement Units */
-.box {
+/* .box {
   width: 15rem;
   height: 100vh;
   background-color: gold;
   border-top: 3px solid orange;
+} */
+
+/* Positioning  */
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
 }
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background-color: gold;
+}
+.box-two {
+  background-color: tomato;
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+}
+.box-three {
+  background-color: dodgerblue;
+}
+
+/* Floting Element */
+/* Flex box Grid  */
+/* Hiding Element  */
+/* Media Querie */
