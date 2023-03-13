@@ -1,6 +1,16 @@
-/* Image Types and Formats */
 /* Content Images */
+/* .meal {
+  width: 100vw;
+} */
+
 /* Background Images */
+/* body {
+  background: url(./images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+} */
 /* CSS Sprites */
 /* Data URLs */
 /* Clipping */
